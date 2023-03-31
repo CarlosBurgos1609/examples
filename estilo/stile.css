@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    /*background: #031321;*/
+    font-family: consolas;
+    background: #031321;
+    background: -webkit-linear-gradient(to right, #112652, #28427e);
+    background: linear-gradient(to right, #112652, #28427e);
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    Letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: .6em;
+}
+
+a sanp {
+    position: absolute;
+    display: block;
+}
+
+a:hover {
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.4s;
+}
+
