@@ -3,7 +3,7 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /*background: #031321;*/
     font-family: consolas;
     background: #031321;
@@ -15,7 +15,7 @@ a {
     position: relative;
     display: inline-block;
     padding: 15px 30px;
-    color: #2196f3;
+    color: #FFFFFF;
     text-transform: uppercase;
     Letter-spacing: 4px;
     text-decoration: none;
